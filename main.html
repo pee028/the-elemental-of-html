@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Elemental Of HTML</title>
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>HTML要素の説明</h1>
+        <ol>
+            <li>
+                <h2>The object element</h2>
+                <p>&lt;object&gt;はhtmlの要素で画像、内部の閲覧コンテキスト、プラグインによって扱われるリソースなどのように扱われる外部リソースを表します。</p>
+                <p>使用例:情報科学科学科専門科目</p>
+                    <object type="application/pdf"
+                    data="pdf/info_science.pdf" 
+                    width="1000px" 
+                    height="500px"></object>
+            </li>
+
+            <li>
+                <h2>The table element</h2>
+                <p>&lt;table&gt;は表形式のデータで列と行の組み合わせによるセルを使った表であらわされるデータです</p>
+                <table border="2" style="border-collapse:collapse;border-color: blueviolet;">
+                    <thread>
+                        <tr>
+                            <th>tableの使用例</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>10</td>
+                            <td>28</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+
+            <li>
+                <h2>The colgroup element</h2>
+                <p>&lt;colgroup&gt;は表内の列のグループを定義することができます</p>
+                <p>使用例:</p>
+                <table border="3" style="border-color: red">
+                    <caption>omoti seasoning</caption>
+                    <colgroup>
+                        <col>
+                        <col span="2" class="kinako">
+                        <col span="2" class="shoyu">
+                    </colgroup>
+                    <tr>
+                        <td> </td>
+                        <th scope="col">kinako</th>
+                        <th scope="col">shoyu</th>
+                        <th scope="col">ozoni</th>
+                        <th scope="col">osiruko</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">seasoning</th>
+                        <td>sweet</td>
+                        <td>salty</td>
+                        <td>sweet</td>
+                        <td>sweet</td>
+                    </tr>
+                </table>
+            </li>
+        </ol>
+    </body>
+</html>
